@@ -55,7 +55,7 @@ function AddPodcastScreen() {
 
   useEffect(() => {
     fetchUploads();
-  }, [projectId, navigate]); // Depend on projectId and navigate
+  }, [projectId, navigate, fetchUploads]); // Depend on projectId, navigate, and fetchUploads
 
   const handleUploadTypeSelect = (type) => {
     setUploadType(type);

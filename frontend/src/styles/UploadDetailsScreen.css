@@ -1,0 +1,53 @@
+.upload-details-container {
+  padding: 20px;
+}
+
+.upload-details-container h1 {
+  color: #6a1b9a; /* Example primary color */
+  margin-bottom: 20px;
+}
+
+.upload-details-container button {
+  background-color: #6a1b9a; /* Example primary color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.upload-details-container button:hover {
+  background-color: #4a148c; /* Darker shade on hover */
+}
+
+.upload-details-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.upload-details-card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.upload-details-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.upload-details-card strong {
+    color: #333;
+}
+
+.upload-details-card a button {
+    margin-top: 15px;
+}
+
+.upload-details-container .error-message {
+    color: red;
+} 

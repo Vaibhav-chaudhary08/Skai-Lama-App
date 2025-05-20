@@ -1,0 +1,59 @@
+.edit-transcript-container {
+  padding: 20px;
+}
+
+.edit-transcript-container h1 {
+  color: #6a1b9a; /* Example primary color */
+  margin-bottom: 20px;
+}
+
+.edit-transcript-container button {
+  background-color: #6a1b9a; /* Example primary color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.edit-transcript-container button:hover {
+  background-color: #4a148c; /* Darker shade on hover */
+}
+
+.edit-transcript-container form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.edit-transcript-container .error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.edit-transcript-container .info-message {
+    color: green;
+    margin-top: 10px;
+} 
